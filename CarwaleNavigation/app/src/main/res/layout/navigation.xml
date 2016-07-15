@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="?attr/actionBarSize"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/car4"
+            android:id="@+id/img"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guest User"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:layout_alignBottom="@+id/img" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Cars"
+            android:textSize="30sp"
+            android:paddingLeft="20dp"
+            android:id="@+id/newcars"
+            />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/icon_play"
+                android:id="@+id/newcarsdrop"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Find Cars"
+            android:textSize="30sp"
+            android:id="@+id/newfind"
+            android:paddingLeft="20dp"
+            android:visibility="gone"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Compare Cars"
+            android:id="@+id/newcompare"
+            android:visibility="gone"
+            android:textSize="30sp"
+            android:paddingLeft="20dp"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Used Cars"
+                android:textSize="30sp"
+                android:paddingLeft="20dp"
+                android:id="@+id/usedcars"
+                />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/icon_play"
+                android:id="@+id/usedcarsdrop"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Find Cars"
+            android:id="@+id/usedfind"
+            android:visibility="gone"
+            android:textSize="30sp"
+            android:paddingLeft="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Compare Cars"
+            android:id="@+id/usedcompare"
+            android:visibility="gone"
+            android:textSize="30sp"
+            android:paddingLeft="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="News"
+            android:textSize="30sp"
+            android:paddingLeft="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sell Your Car"
+            android:textSize="30sp"
+            android:paddingLeft="20dp"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
